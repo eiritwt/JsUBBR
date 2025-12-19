@@ -42,9 +42,7 @@ export const acts = {
             { trigger: "scream_b_", sequence: ["body_scream_b_1*", "body_scream_b_2*"], wait: 0.1 },
             { trigger: "scream_c_", sequence: ["body_scream_c_1*", "body_scream_c_2*"], wait: 0.07 },
             { trigger: "special_b_", sequence: ["body_special_b_1*", "body_special_b_2*", "body_special_b_3*"], wait: 0.1 },
-            { trigger: "final_", sequence: ["body_final_1*", "body_final_2*", "body_final_3*", "body_final_4*"], wait: 0.05 },
-            { trigger: "yell_1*", sequence: ["body_yell_1*", "body_yell_2*"], wait: 0.1 },
-            { trigger: "yell_angry_1*", sequence: ["body_yell_angry_1*", "body_yell_angry_2*"], wait: 0.1 }
+            { trigger: "final_", sequence: ["body_final_1*", "body_final_2*", "body_final_3*", "body_final_4*"], wait: 0.05 }
         ] 
     },
     act3: {
@@ -76,8 +74,7 @@ export const acts = {
             "body_yap_3*", "body_yap_4*", "cone_yap_1", "cone_yap_2", "cone_yap_3", "cone_yap_4", "eyes_blank", "mouth_blank", "coneb_blank"
         ],
         loops: [
-            { trigger: "yap_", sequence: ["body_yap_1*", "body_yap_2*", "body_yap_3*", "body_yap_4*"], wait: 1/24 },
-            { trigger: "karate_", sequence: ["body_karate_1*", "body_karate_2*"], wait: 0.25 }
+            { trigger: "yap_", sequence: ["body_yap_1*", "body_yap_2*", "body_yap_3*", "body_yap_4*"], wait: 0.04 }
         ]
     }
 };
